@@ -1,0 +1,42 @@
+{
+  "name": "ui5-task-copy-resources",
+  "version": "0.0.1",
+  "description": "Task for ui5-builder which just copy resources from one place to another without any changes",
+  "author": "Mauricio Lauffer",
+  "license": "MIT",
+  "homepage": "https://github.com/mauriciolauffer/ui5-task-copy-resources#readme",
+  "private": false,
+  "main": "lib/index.js",
+  "files": [
+    "lib/**",
+    "ui5.yaml"
+  ],
+  "keywords": [
+    "ui5",
+    "task",
+    "builder",
+    "tooling",
+    "copy",
+    "move",
+    "files",
+    "resources"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciolauffer/ui5-task-copy-resources.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauriciolauffer/ui5-task-copy-resources/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.13.15",
+    "eslint": "^7.7.0",
+    "eslint-config-mlauffer-nodejs": "0.0.1"
+  }
+}
