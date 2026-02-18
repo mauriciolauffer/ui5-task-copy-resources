@@ -6,8 +6,6 @@
     "noEmit": true,
     "checkJs": true,
     "allowJs": true,
-    "types": [
-      "@types/node"
-    ]
+    "types": ["@types/node"]
   }
 }

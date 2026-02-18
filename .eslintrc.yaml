@@ -1,3 +1,7 @@
 root: true
 extends:
   - eslint-config-mlauffer-nodejs
+rules:
+  space-before-function-paren: 0
+  operator-linebreak: 0
+  object-curly-spacing: 0
