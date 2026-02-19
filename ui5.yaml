@@ -4,4 +4,4 @@ type: task
 metadata:
   name: ui5-task-copy-resources
 task:
-  path: "lib/index.js"
+  path: 'dist/index.js'
