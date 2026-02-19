@@ -31,8 +31,8 @@
   "scripts": {
     "build": "tsc && echo 'module.exports = exports.default;' >> dist/index.js",
     "test": "vitest run",
-    "lint": "eslint lib --ext .ts",
-    "lint:fix": "eslint lib --ext .ts --fix",
+    "lint": "eslint lib test --ext .ts",
+    "lint:fix": "eslint lib test --ext .ts --fix",
     "format": "oxfmt . --write",
     "format:check": "oxfmt . --check"
   },

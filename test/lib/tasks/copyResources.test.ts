@@ -1,5 +1,5 @@
 import {describe, it, expect, vi} from 'vitest';
-import task from './index';
+import task from '../../../lib/tasks/copyResources';
 
 describe('ui5-task-copy-resources', () => {
   it('should copy project resources', async () => {
